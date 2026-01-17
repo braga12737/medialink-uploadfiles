@@ -457,10 +457,4 @@ setInterval(() => {
     }
 }, 600000);
 
-app.listen(PORTA, () => {
-    console.log(`
-    ================================================
-    SERVIDOR IP LOGGER INICIADO
-    ================================================
-    `);
-});
+module.exports = app;
